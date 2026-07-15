@@ -1,4 +1,4 @@
-const os = requires('os');
+const os = require('os');
 console.log('System Information:');
 console.log(`Platform: ${os.platform()}`);
 console.log(`CPU Architecture: ${os.arch()}`);
